@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  # ── Backend (FastAPI + ML) ──────────────────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: resume_analyzer_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ALLOWED_ORIGINS=http://localhost:3000,http://localhost
+      - DEBUG=false
+      - LOG_LEVEL=INFO
+      - MAX_FILE_SIZE_MB=5
+      - RATE_LIMIT=20/minute
+    volumes:
+      - ./ml:/app/../ml:ro       # Mount ML module read-only
+      - uploads_tmp:/tmp/resume_uploads
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s         # Allow model load time
+
+  # ── Frontend (React + Nginx) ────────────────────────────────────────────────
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    container_name: resume_analyzer_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  uploads_tmp:

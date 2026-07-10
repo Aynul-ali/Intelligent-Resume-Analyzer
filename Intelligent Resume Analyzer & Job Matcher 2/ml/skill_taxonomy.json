@@ -1,0 +1,77 @@
+{
+  "programming_languages": [
+    "python", "javascript", "typescript", "java", "c++", "c#", "c", "go", "golang",
+    "rust", "swift", "kotlin", "scala", "ruby", "php", "r", "matlab", "perl",
+    "haskell", "elixir", "dart", "lua", "shell", "bash", "powershell", "groovy",
+    "clojure", "erlang", "fortran", "cobol", "assembly", "objective-c", "f#", "julia"
+  ],
+  "web_frameworks": [
+    "react", "reactjs", "react.js", "vue", "vuejs", "vue.js", "angular", "angularjs",
+    "svelte", "nextjs", "next.js", "nuxtjs", "nuxt.js", "gatsby", "remix",
+    "django", "flask", "fastapi", "express", "expressjs", "nestjs", "nest.js",
+    "spring", "spring boot", "rails", "ruby on rails", "laravel", "symfony",
+    "asp.net", "blazor", "fiber", "gin", "echo", "fastify", "hapi", "koa",
+    "tailwindcss", "tailwind", "bootstrap", "material ui", "material-ui", "mui",
+    "chakra ui", "antd", "ant design", "shadcn", "framer motion", "gsap"
+  ],
+  "databases": [
+    "mysql", "postgresql", "postgres", "sqlite", "mongodb", "redis", "elasticsearch",
+    "cassandra", "dynamodb", "firebase", "firestore", "supabase", "couchdb",
+    "neo4j", "influxdb", "cockroachdb", "aurora", "mariadb", "oracle", "mssql",
+    "sql server", "bigquery", "snowflake", "redshift", "hive", "hbase",
+    "clickhouse", "timescaledb", "duckdb", "pinecone", "weaviate", "chroma"
+  ],
+  "cloud_devops": [
+    "aws", "amazon web services", "gcp", "google cloud", "azure", "microsoft azure",
+    "docker", "kubernetes", "k8s", "terraform", "ansible", "jenkins", "github actions",
+    "gitlab ci", "circleci", "travis ci", "helm", "istio", "envoy", "nginx",
+    "apache", "caddy", "cloudflare", "vercel", "netlify", "heroku", "digitalocean",
+    "ec2", "s3", "lambda", "cloudwatch", "cloudfront", "route53", "ecs", "eks",
+    "gke", "gcs", "cloud run", "cloud functions", "azure devops", "aks",
+    "prometheus", "grafana", "datadog", "new relic", "splunk", "elk stack",
+    "ci/cd", "devops", "devsecops", "sre", "site reliability", "infrastructure as code"
+  ],
+  "data_ml_ai": [
+    "machine learning", "deep learning", "neural networks", "nlp", "natural language processing",
+    "computer vision", "reinforcement learning", "supervised learning", "unsupervised learning",
+    "tensorflow", "pytorch", "keras", "scikit-learn", "sklearn", "xgboost", "lightgbm",
+    "catboost", "hugging face", "transformers", "bert", "gpt", "llm", "large language models",
+    "langchain", "llamaindex", "openai", "pandas", "numpy", "scipy", "matplotlib",
+    "seaborn", "plotly", "tableau", "power bi", "looker", "dbt", "airflow",
+    "spark", "pyspark", "hadoop", "kafka", "flink", "data pipeline", "etl",
+    "feature engineering", "model deployment", "mlops", "data science", "data engineering",
+    "data analysis", "data visualization", "statistics", "probability", "linear algebra",
+    "time series", "recommendation systems", "a/b testing", "hypothesis testing",
+    "regression", "classification", "clustering", "dimensionality reduction",
+    "sentence transformers", "spacy", "nltk", "gensim", "word2vec", "opencv",
+    "rag", "retrieval augmented generation", "vector database", "embeddings"
+  ],
+  "mobile": [
+    "react native", "flutter", "ios", "android", "swift", "kotlin", "objective-c",
+    "xamarin", "ionic", "capacitor", "expo", "xcode", "android studio",
+    "app store", "google play", "push notifications", "mobile development"
+  ],
+  "soft_skills": [
+    "leadership", "teamwork", "communication", "problem solving", "critical thinking",
+    "project management", "agile", "scrum", "kanban", "time management",
+    "collaboration", "adaptability", "creativity", "attention to detail",
+    "analytical thinking", "decision making", "mentoring", "coaching",
+    "public speaking", "presentation", "negotiation", "conflict resolution",
+    "cross-functional", "stakeholder management", "customer focus", "empathy"
+  ],
+  "tools_practices": [
+    "git", "github", "gitlab", "bitbucket", "jira", "confluence", "notion",
+    "slack", "figma", "sketch", "adobe xd", "postman", "insomnia", "swagger",
+    "openapi", "graphql", "rest api", "restful", "grpc", "websockets", "oauth",
+    "jwt", "ssl", "tls", "microservices", "monorepo", "serverless", "event-driven",
+    "clean architecture", "solid principles", "design patterns", "tdd", "bdd",
+    "unit testing", "integration testing", "e2e testing", "jest", "pytest",
+    "cypress", "playwright", "selenium", "code review", "pair programming",
+    "refactoring", "documentation", "technical writing", "linux", "unix",
+    "windows server", "networking", "tcp/ip", "dns", "http", "https",
+    "load balancing", "caching", "cdn", "api gateway", "message queue",
+    "rabbitmq", "sqs", "pub/sub", "grpc", "protobuf", "avro",
+    "security", "penetration testing", "owasp", "vulnerability assessment",
+    "blockchain", "web3", "solidity", "smart contracts", "defi"
+  ]
+}
